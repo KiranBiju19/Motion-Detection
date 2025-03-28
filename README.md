@@ -2,7 +2,7 @@
 
 ## Overview
 This Python script implements a motion detection system using OpenCV. It captures video from a camera, compares frames with a reference image, and saves snapshots when motion is detected.
-![Alt Text](snapshot_20250328_223726.jpg)
+![Alt Text](abs.png)
 ## Features
 - Real-time camera feed
 - Motion detection using frame comparison

@@ -17,7 +17,8 @@ class MotionDetector:
             raise ValueError("Could not load reference image")
         
         # Camera setup
-        self.cap = cv2.VideoCapture(0)  # Use default camera
+        # Use default camera
+        self.cap = cv2.VideoCapture(0)  
         if not self.cap.isOpened():
             raise RuntimeError("Could not open camera")
         
@@ -79,7 +80,7 @@ class MotionDetector:
 
 def main():
     # Provide path to your reference image
-    reference_image_path = 'C:/Users/Acer/Documents/VSCODE/py/CGIP/snapshots/snapshot_20250328_223726.jpg'
+    reference_image_path = 'Add the location to reference image'
     
     try:
         # Initialize and run motion detector
@@ -88,5 +89,5 @@ def main():
     except Exception as e:
         print(f"Error: {e}")
 
-if __name__ == "__main__":
-    main()
+
+main()

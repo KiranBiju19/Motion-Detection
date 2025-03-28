@@ -3,11 +3,7 @@ import os
 from datetime import datetime
 
 def capture_snapshot(output_dir='snapshots'):
-    """
-    Capture a snapshot from the default camera
     
-    :param output_dir: Directory to save snapshots
-    """
     # Create output directory if it doesn't exist
     os.makedirs(output_dir, exist_ok=True)
     
@@ -42,9 +38,6 @@ def capture_snapshot(output_dir='snapshots'):
     return filepath
 
 def capture_with_preview():
-    """
-    Capture a snapshot with a live preview
-    """
     # Initialize the camera
     cap = cv2.VideoCapture(0)
     

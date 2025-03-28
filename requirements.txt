@@ -1,0 +1,10 @@
+# Core dependencies
+opencv-python==4.7.0.72
+numpy==1.24.3
+
+# Optional: For datetime handling (though built-in, included for completeness)
+python-dateutil==2.8.2
+
+# Recommended: For virtual environment management
+setuptools==67.7.2
+wheel==0.40.0

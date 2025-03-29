@@ -2,8 +2,15 @@
 
 ## Overview
 This Python script implements a motion detection system using OpenCV. It captures video from a camera, compares frames with a reference image, and saves snapshots when motion is detected.
+# Step by Step detection
+## Convertion to greyscale
+cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)
+![Alt Text](grey.png)
+## Working of cv2.absdiff()
 ![Alt Text](abs.png)
+## Working of cv2.findContours()
 ![Alt Text](counter-detection.jpg)
+
 ## Features
 - Real-time camera feed
 - Motion detection using frame comparison
